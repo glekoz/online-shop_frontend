@@ -13,6 +13,12 @@ func (web *Weber) Routes() http.Handler {
 	mux.HandleFunc("GET /login", web.GetLoginHandler)
 	mux.HandleFunc("POST /login", web.PostLoginHandler)
 
+	mux.HandleFunc("GET /product", web.GetCreateProductHandler)
+	mux.HandleFunc("POST /product", web.PostCreateProductHandler)
+
+	mux.HandleFunc("GET /products", web.GetProductsHandler)
+	mux.Handle("GET /products/{id}", web.ReadNameFromCookie(http.HandlerFunc(web.GetProductHandler)))
+
 	mux.HandleFunc("GET /logout", web.LogoutHandler)
 
 	return mux

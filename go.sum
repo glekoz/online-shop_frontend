@@ -1,5 +1,5 @@
-github.com/glekoz/online-shop_proto v0.1.21 h1:fUUNzy1Ot0UbFnRA4YG+HWBb4tlSa+0dgShoO4GrAow=
-github.com/glekoz/online-shop_proto v0.1.21/go.mod h1:uJTP0E7WmwwWJM3GntPhatzPerFqNGOra+brnkl4SA0=
+github.com/glekoz/online-shop_proto v0.1.22 h1:6BrlEYFpQzhgHB+yEkIbkP8/L5DcprE3CVrZS8E0RK0=
+github.com/glekoz/online-shop_proto v0.1.22/go.mod h1:uJTP0E7WmwwWJM3GntPhatzPerFqNGOra+brnkl4SA0=
 github.com/go-logr/logr v1.4.3 h1:CjnDlHq8ikf6E492q6eKboGOC0T8CDaOvkHCIg8idEI=
 github.com/go-logr/logr v1.4.3/go.mod h1:9T104GzyrTigFIr8wt5mBrctHMim0Nb2HLGrmQ40KvY=
 github.com/go-logr/stdr v1.2.2 h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag=

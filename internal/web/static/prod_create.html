@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Простая форма</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; }
+        form { display: flex; flex-direction: column; width: 250px; }
+        input { margin-bottom: 10px; padding: 8px; }
+        button { padding: 8px; background: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .result { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Добавление нового товара</h1>
+    <form method="POST" action="/product">
+        <input type="text" name="name" placeholder="Название" required>
+        <input type="number" name="price" min="0", max="1000000" placeholder="Цена в копейках" required>
+        <input type="text" name="description" placeholder="Описание" required>
+        <button type="submit">Добавить</button>
+    </form>
+</body>
+</html>
